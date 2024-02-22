@@ -7,16 +7,16 @@
   align-items: center;
 }
 
-/* .action-button {
-    background-color: #3040c4;
-    color: #ffffff;
-    width: 160px;
-    height: 48px;
-    font-size: 18px;
-    font-weight: 700;
-    border-radius: 2px;
-    border: none;
-} */
+.action-button {
+  background-color: #3040c4;
+  color: #ffffff;
+  width: 160px;
+  height: 48px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 2px;
+  border: none;
+}
 .navigation {
   display: none;
 }
@@ -230,7 +230,7 @@
     margin-left: auto;
   }
 }
-.action-button {
+/* .action-button {
   background-color: #3040c4;
   color: #ffffff;
   width: 160px;
@@ -239,7 +239,7 @@
   font-weight: 700;
   border-radius: 2px;
   border: none;
-}
+} */
 
 @media screen and (min-width: 400px) {
   .hide_desktop {
