@@ -509,6 +509,102 @@
   max-width: 100%;
 }
 
+.rectangles {
+  margin-top: 25px;
+  background: #00A1C6;
+}
+
+@media screen and (min-width: 400px) {
+  .rectangles {
+    display: none;
+  }
+}
+.rectangle {
+  padding: 25px 15px 0 15px;
+}
+
+.rectangle__subtitle {
+  display: block;
+  width: 290px;
+  height: 34px;
+  font-size: 22px;
+  line-height: 34px;
+  text-align: center;
+  color: #2B292D;
+}
+
+.rectangle__title {
+  display: block;
+  margin-top: 17px;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.357143px;
+  color: #2B292D;
+}
+
+.rectangle__description {
+  margin: 0;
+  margin-top: 18px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  color: #2B292D;
+}
+
+.rectangle__actions {
+  margin-top: 30px;
+}
+
+.rectangle__learn-more-btn {
+  background-color: #fff;
+  color: #3040c4;
+  width: 290px;
+  height: 48px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 2px;
+  border: none;
+  margin-top: 13px;
+}
+
+.rectangle__action-btn {
+  width: 100%;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+}
+
+.rectangle__figure {
+  margin: 0;
+  margin-top: 40px;
+  width: 290px;
+  height: 300px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #FFFFFF;
+  background-blend-mode: overlay, normal;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.rectangle__image {
+  margin: 0;
+  width: 138px;
+  height: 195px;
+}
+
+.rectangle__image-caption {
+  margin: 0;
+  margin-top: 22px;
+  margin-left: 20px;
+  width: 250px;
+  height: 28px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  color: #2B292D;
+}
+
 .mobile {
   padding: 50px 15px 0 15px;
 }
