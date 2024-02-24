@@ -2,6 +2,14 @@
 @import 'common.scss';
 @import 'header.scss';
 @import 'headline.scss';
+@import 'about.scss';
+@import 'customers.scss';
+@import 'features.scss';
+@import 'tips.scss';
+@import 'audience.scss';
+@import 'mobile.scss';
+@import 'order.scss';
+@import 'footer.scss';
 
 
 html {
@@ -13,11 +21,9 @@ html {
 .page {
     width: 100%;
     overflow-x: hidden;
-}
 
-@media screen and (min-width: 400px) {
-    .page {
-        width: 1400px;
+    @include for-large-up {
+        max-width: 1400px;
         margin: auto;
         min-height: 100vh;
         display: flex;

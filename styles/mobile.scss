@@ -1,0 +1,119 @@
+.mobile {
+    // display: flex;
+    // position: relative;
+    // margin-top: 50px;
+    padding: 50px 15px 0 15px;
+
+    @include for-large-up {
+        display: none;
+    }
+
+}
+
+.responsive {
+
+    &__subtitle {
+        // position: absolute;
+        margin: 0;
+        //  padding: 0 80px;
+        width: 225px;
+        height: 34px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 34px;
+        color: #0189D1;
+    }
+
+    &__title {
+        // position: absolute;
+        margin: 0;
+        // padding-left: 15px;
+        margin-top: 17px;
+        width: 290px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: -0.357143px;
+        color: #2B292D;
+    }
+
+    &__description {
+        margin: 0;
+        margin-top: 18px;
+        // font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        color: #2B292D;
+        height: 167px;
+        width: 290px;
+        // margin-top: 17px;
+    }
+
+    &__button {
+        margin-top: 30px;
+        height: 48px;
+        width: 160px;
+    }
+
+    &__image {
+        margin: 0;
+        margin-top: 40px;
+        width: 290px;
+        height: 291px;
+    }
+
+    &__dicoration {
+        margin: 0;
+        // dicoration
+    }
+
+    &__image-caption {
+        margin: 0;
+        // width: 290px;
+        // height: 291px;
+        margin-top: 17px;
+        margin-left: 43px;
+        width: 234px;
+        height: 22px;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        color: rgba(43, 41, 45, 0.6);
+    }
+
+    &__line {
+        margin: 0;
+        margin-top: 40px;
+        height: 1px;
+        width: 150px;
+        color: #0000;
+        opacity: 0.1;
+    }
+
+
+
+
+}
+
+
+.article {
+
+    margin: 0;
+    width: 290px;
+    height: 138px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 33px;
+
+
+    &__link {
+        margin: 0;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+        text-decoration-line: underline;
+        color: #3040C4;
+
+    }
+}
