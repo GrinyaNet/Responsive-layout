@@ -3,7 +3,7 @@
 ### [Site link](https://github.com/GrinyaNet/Responsive-layout)
 
 
-Layout supports mobile (up-to-400) and desktop (up-to-1360) versions
+Layout supports mobile (up-to-400) and desktop (up-to-1400) versions
 
 ### The tech stack is:
 
