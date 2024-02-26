@@ -1,7 +1,5 @@
 .mobile {
-    // display: flex;
-    // position: relative;
-    // margin-top: 50px;
+
     padding: 50px 15px 0 15px;
 
     @include for-large-up {
@@ -13,9 +11,7 @@
 .responsive {
 
     &__subtitle {
-        // position: absolute;
         margin: 0;
-        //  padding: 0 80px;
         width: 225px;
         height: 34px;
         font-weight: 700;
@@ -25,9 +21,8 @@
     }
 
     &__title {
-        // position: absolute;
+
         margin: 0;
-        // padding-left: 15px;
         margin-top: 17px;
         width: 290px;
         font-weight: 700;
@@ -40,13 +35,11 @@
     &__description {
         margin: 0;
         margin-top: 18px;
-        // font-weight: 400;
         font-size: 24px;
         line-height: 34px;
         color: #2B292D;
         height: 167px;
         width: 290px;
-        // margin-top: 17px;
     }
 
     &__button {
@@ -64,13 +57,10 @@
 
     &__dicoration {
         margin: 0;
-        // dicoration
     }
 
     &__image-caption {
         margin: 0;
-        // width: 290px;
-        // height: 291px;
         margin-top: 17px;
         margin-left: 43px;
         width: 234px;
@@ -90,11 +80,7 @@
         opacity: 0.1;
     }
 
-
-
-
 }
-
 
 .article {
 
@@ -105,7 +91,6 @@
     font-size: 18px;
     line-height: 26px;
     margin-top: 33px;
-
 
     &__link {
         margin: 0;

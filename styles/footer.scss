@@ -60,7 +60,7 @@
     .Logo {
 
         @include for-large-down {
-        display: none;
+            display: none;
         }
     }
 }
