@@ -3,6 +3,7 @@
   height: 1808px;
   width: 320;
   background-color: rgba(0, 161, 198, 0.07);
+  padding-left: 23px; //i
 
   @include for-large-up {
     display: flex;
@@ -13,7 +14,7 @@
 }
 
 .rectangle {
-  padding: 0 15px 0 0px;
+  padding: 0 15px 0 0px;  
   //padding: 0 15px 0 15px;
   
 
@@ -33,6 +34,7 @@
     font-weight: 700;
     text-align: center;
     color: #2b292d;
+    padding-top: 54px;
 
     @include for-large-up {
       width: 167px;
