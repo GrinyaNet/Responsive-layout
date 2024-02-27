@@ -16,6 +16,13 @@
   padding: 0 15px 0 15px;
   // padding: 25px 15px 0 15px;
 
+  @include for-large-up {
+    display: flex;
+    height: 983px;
+    width: 1400px;    
+    padding: 108px 0 110px 0;
+  }
+
   &__subtitle {
     display: block;
     width: 290px;

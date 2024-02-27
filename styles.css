@@ -509,6 +509,14 @@
 .rectangle {
   padding: 0 15px 0 15px;
 }
+@media screen and (min-width: 1399px) {
+  .rectangle {
+    display: flex;
+    height: 983px;
+    width: 1400px;
+    padding: 108px 0 110px 0;
+  }
+}
 .rectangle__subtitle {
   display: block;
   width: 290px;
