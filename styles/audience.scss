@@ -3,12 +3,13 @@
   height: 1808px;
   width: 320;
   background-color: rgba(0, 161, 198, 0.07);
-  padding-left: 23px; //i
+  padding-left: 15px; //i
 
   @include for-large-up {
     display: flex;
     height: 983px;
-    width: 1400px;    
+    width: 1400px;
+    padding-left: 0;
     padding: 108px 0 110px 0;
   }
 }
@@ -34,13 +35,14 @@
     font-weight: 700;
     text-align: center;
     color: #2b292d;
-    padding-top: 54px;
+    padding-top: 54px;//I
 
     @include for-large-up {
       width: 167px;
       height: 34px;
       font-weight: 700;
       margin-left: 617px;
+      padding-top: 0;//I
       // padding-top: 108px;
       // margin-bottom: 0; //I am
     }
