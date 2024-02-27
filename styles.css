@@ -492,7 +492,6 @@
 }
 
 .audience {
-  margin-top: 25px;
   height: 1808px;
   width: 320;
   background-color: rgba(0, 161, 198, 0.07);
@@ -513,7 +512,6 @@
   .rectangle {
     height: 983px;
     width: 1400px;
-    padding: 108px 0 110px 0;
   }
 }
 .rectangle__subtitle {
