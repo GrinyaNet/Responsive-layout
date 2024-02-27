@@ -1,9 +1,9 @@
-/* Error: expected "{".
+/* Error: expected selector.
  *     ,
- * 214 |       border-radius: 8px;
- *     |                         ^
+ * 204 |       ---
+ *     |          ^
  *     '
- *   styles\audience.scss 214:25  @import
+ *   styles\audience.scss 204:10  @import
  *   styles\index.scss 9:9        root stylesheet */
 
 body::before {
@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a     \2577 \a 214 \2502        border-radius: 8px;\d\a     \2502                          ^\a     \2575 \a   styles\\audience.scss 214:25  @import\a   styles\\index.scss 9:9        root stylesheet';
+  content: "Error: expected selector.\a     \2577 \a 204 \2502        ---\d\a     \2502           ^\a     \2575 \a   styles\\audience.scss 204:10  @import\a   styles\\index.scss 9:9        root stylesheet";
 }
