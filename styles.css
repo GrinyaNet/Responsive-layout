@@ -502,12 +502,12 @@
     display: flex;
     height: 983px;
     width: 1400px;
-    padding: 0 0 110px 0;
+    padding: 108px 0 110px 0;
   }
 }
 
 .rectangle {
-  padding: 25px 15px 0 15px;
+  padding: 0 15px 0 15px;
 }
 .rectangle__subtitle {
   display: block;
