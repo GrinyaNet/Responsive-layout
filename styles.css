@@ -535,6 +535,7 @@
   text-align: center;
   letter-spacing: -0.357143px;
   color: #2b292d;
+  margin-bottom: 0;
 }
 @media screen and (min-width: 1399px) {
   .rectangle__title {
@@ -545,6 +546,7 @@
     letter-spacing: -0.5px;
     width: 555px;
     height: 112px;
+    margin-bottom: 0;
     margin-left: 416px;
   }
 }
@@ -559,7 +561,6 @@
 }
 @media screen and (min-width: 1399px) {
   .rectangle__description {
-    margin-top: 20px;
     height: 72px;
     width: 555px;
     margin-left: 416px;

@@ -31,6 +31,7 @@
       height: 34px;
       font-weight: 700;
       margin-left: 617px;
+      // margin-bottom: 0; //I am
     }
   }
 
@@ -42,8 +43,9 @@
     text-align: center;
     letter-spacing: -0.357143px;
     color: #2b292d;
+    margin-bottom: 0; //I
 
-    @include for-large-up {
+    @include for-large-up {      
       margin-top: 24px;
       font-weight: 700;
       font-size: 56px;
@@ -51,6 +53,7 @@
       letter-spacing: -0.5px;
       width: 555px;
       height: 112px;
+      margin-bottom: 0; //I
       // margin-left: 422px;
       margin-left: 416px;
     }
@@ -66,7 +69,7 @@
     color: #2b292d;
 
     @include for-large-up {
-      margin-top: 20px;
+      // margin-top: 10px;
       // margin-top: 30px;
       height: 72px;
       width: 555px;
