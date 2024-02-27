@@ -13,8 +13,9 @@
 }
 
 .rectangle {
-  padding: 0 15px 0 15px;
-  // padding: 25px 15px 0 15px;
+  padding: 0 15px 0 20px;
+  //padding: 0 15px 0 15px;
+  
 
   @include for-large-up {
     //display: flex;
