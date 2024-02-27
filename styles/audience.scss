@@ -201,7 +201,7 @@
         0px 4px 6px rgba(0, 0, 0, 0.05),
         inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 
-      ---
+    
       // background: linear-gradient(
       //     180deg,
       //     rgba(255, 255, 255, 0.05) 0%,
@@ -211,7 +211,7 @@
       // // background: #3141c5;
       // box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15),
       //   0px 11px 55px rgba(0, 0, 0, 0.07);
-      // border-radius: 8px;
+       border-radius: 8px;
 
       @include for-large-up {
         margin: 0;
