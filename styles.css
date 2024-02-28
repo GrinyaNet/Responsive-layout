@@ -108,7 +108,12 @@
 
 .Logo {
   display: flex;
-  margin-left: 15px;
+  margin-left: 20px;
+}
+@media screen and (min-width: 1400px) {
+  .Logo {
+    margin-left: 0px;
+  }
 }
 .Logo__image {
   width: 48px;
@@ -121,7 +126,6 @@
     width: 60px;
     height: 60px;
     margin-right: 15px;
-    margin-left: 0px;
   }
 }
 .Logo__name {
