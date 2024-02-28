@@ -35,7 +35,7 @@
     height: 100%;
     margin-left: auto;
     background: transparent;
-     margin-right: 6px;
+     margin-right: 8px;//I
 
     @include for-large-up {
       display: none;
@@ -88,6 +88,7 @@
 
 .Logo {
   display: flex;
+  margin-left: 15px;/I
 
   &__image {
     width: 48px;
@@ -104,6 +105,7 @@
       width: 60px;
       height: 60px;
       margin-right: 15px;
+      margin-left: 0px;
     }
   }
 
