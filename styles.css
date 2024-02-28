@@ -51,6 +51,7 @@
 @media screen and (min-width: 1400px) {
   .header__button {
     display: block;
+    margin-right: -2px;
   }
 }
 .header__menu-button {

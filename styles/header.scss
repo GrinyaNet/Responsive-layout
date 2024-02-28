@@ -20,6 +20,9 @@
     @include for-large-up {
       display: block;
       // margin-left: 4px;//I
+      margin-right: -2px;
+      // padding: 0;
+      // padding-left: 2px;
     }
   }
 
