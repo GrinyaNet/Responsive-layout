@@ -108,7 +108,7 @@
 
 .Logo {
   display: flex;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 @media screen and (min-width: 1400px) {
   .Logo {
