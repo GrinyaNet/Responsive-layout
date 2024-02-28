@@ -1,4 +1,4 @@
-$lg: 400px;
+$lg: 399px;
 
 @mixin for-large-up {
   @media screen and (min-width: 1400px) {
@@ -7,7 +7,7 @@ $lg: 400px;
 }
 
 @mixin for-large-down {
-  @media screen and (max-width: 399px) {
+  @media screen and (max-width: $lg) {
     @content;
   }
 }
