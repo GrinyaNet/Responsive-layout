@@ -1,6 +1,6 @@
 # Layout Sample Project
 
-### [Site link](https://github.com/GrinyaNet/Responsive-layout)
+### [Site link](https://grinyanet.github.io/Responsive-layout/)
 
 
 Layout supports mobile (up-to-400) and desktop (up-to-1400) versions
