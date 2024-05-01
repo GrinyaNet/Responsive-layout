@@ -31,6 +31,7 @@
     text-align: center;
     color: #2b292d;
     padding-top: 49px;
+    margin-left: 35px;
 
     @include for-large-up {
       width: 167px;
@@ -112,6 +113,7 @@
 
   &__action-btn {
     width: 100%;
+    cursor: pointer;
 
     @include for-large-up {
       padding: 0;
@@ -158,6 +160,8 @@
     width: 290px;
     height: 300px;
     border-radius: 8px;
+    cursor: pointer;
+    margin-left: 35px;
 
     @include for-large-up {
       margin: 0;
