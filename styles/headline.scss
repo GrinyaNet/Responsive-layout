@@ -55,7 +55,7 @@
   }
 
   &__actions {
-    margin-top: 30px;
+    margin-top: 30px;    
 
     @include for-large-up {
       margin-top: 58px;
@@ -73,6 +73,7 @@
     border-radius: 2px;
     border: none;
     margin-top: 15px;
+    cursor: pointer;
 
     @include for-large-up {
       margin-left: 10px;
@@ -96,7 +97,7 @@
 
   &__action-btn {
     @include for-large-down {
-      width: 100%;
+      width: 100%;      
     }
   }
 }

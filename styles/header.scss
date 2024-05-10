@@ -31,6 +31,7 @@
     margin-left: auto;
     background: transparent;
     margin-right: 7px;
+    cursor: pointer;
 
     @include for-large-up {
       display: none;
@@ -43,6 +44,7 @@
     display: inline-block;
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
     background-position: center;
+    margin-right: 8px;
   }
 }
 

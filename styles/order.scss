@@ -15,6 +15,7 @@
 
   &__illustration {
     max-width: 200px;
+    margin-left: 80px;
 
     @include for-large-up {
       max-width: 269px;
