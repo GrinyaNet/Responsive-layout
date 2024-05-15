@@ -111,38 +111,38 @@
   margin-left: 11px;
 }
 
-.Logo {
+.logo {
   display: flex;
   margin-left: 9px;
 }
 @media screen and (min-width: 1400px) {
-  .Logo {
+  .logo {
     margin-left: 0px;
   }
 }
-.Logo__image {
+.logo__image {
   width: 48px;
   height: 48px;
   margin-right: 13px;
   margin-left: -1px;
 }
 @media screen and (min-width: 1400px) {
-  .Logo__image {
+  .logo__image {
     width: 60px;
     height: 60px;
     margin-right: 15px;
   }
 }
-.Logo__name {
+.logo__name {
   font-size: 20px;
   line-height: 25px;
   font-weight: 700;
 }
-.Logo__description {
+.logo__description {
   display: none;
 }
 @media screen and (min-width: 1400px) {
-  .Logo__description {
+  .logo__description {
     display: block;
     font-size: 18px;
     line-height: 25px;
@@ -150,7 +150,7 @@
     opacity: 0.6;
   }
 }
-.Logo__text {
+.logo__text {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -189,7 +189,7 @@
     margin: 0;
   }
 }
-.headline__titl {
+.headline__title {
   font-weight: 700;
   font-size: 50px;
   line-height: 50px;
@@ -197,7 +197,7 @@
   margin: 0;
 }
 @media screen and (min-width: 1400px) {
-  .headline__titl {
+  .headline__title {
     width: 754px;
     height: 165px;
     font-size: 80px;
