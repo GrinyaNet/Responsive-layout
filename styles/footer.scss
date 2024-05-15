@@ -56,7 +56,7 @@
     }
   }
 
-  .Logo {
+  .logo {
     @include for-large-down {
       display: none;
     }
@@ -170,12 +170,12 @@
     display: none;
   }
 
-  &__image {
+  &-image {
     width: 60px;
     height: 60px;
   }
 
-  &__name {
+  &-name {
     font-weight: 700;
     font-size: 20px;
     line-height: 25px;
@@ -183,7 +183,7 @@
     margin-top: 20px;
   }
 
-  &__descripton {
+  &-descripton {
     font-size: 18px;
     line-height: 25px;
     text-align: center;

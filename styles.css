@@ -90,17 +90,17 @@
     margin-right: 94px;
   }
 }
-.navigation__iteam {
+.navigation__item {
   color: rgb(43, 41, 45);
   text-decoration: none;
   line-height: 25px;
   font-size: 18px;
   margin-right: 50px;
 }
-.navigation__iteam:last-child {
+.navigation__item:last-child {
   margin-right: 0px;
 }
-.navigation_selected {
+.navigation__item_selected {
   font-weight: 700;
 }
 .navigation__arrow {
@@ -982,7 +982,7 @@
   }
 }
 @media screen and (max-width: 399px) {
-  .footer .Logo {
+  .footer .logo {
     display: none;
   }
 }
@@ -1092,18 +1092,18 @@
     display: none;
   }
 }
-.logo__vertical__image {
+.logo__vertical-image {
   width: 60px;
   height: 60px;
 }
-.logo__vertical__name {
+.logo__vertical-name {
   font-weight: 700;
   font-size: 20px;
   line-height: 25px;
   text-align: center;
   margin-top: 20px;
 }
-.logo__vertical__descripton {
+.logo__vertical-descripton {
   font-size: 18px;
   line-height: 25px;
   text-align: center;

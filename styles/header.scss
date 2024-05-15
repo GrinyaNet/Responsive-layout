@@ -58,7 +58,7 @@
     margin-right: 94px;
   }
 
-  &__iteam {
+  &__item {
     color: rgb(43,41,45);
     text-decoration: none;
     line-height: 25px;
@@ -68,11 +68,11 @@
     &:last-child {
       margin-right: 0px;
     }
-  }
 
-  &_selected {
-    font-weight: 700;
-  }
+    &_selected {
+      font-weight: 700;
+    }
+  }  
 
   &__arrow {
     display: inline-block;
