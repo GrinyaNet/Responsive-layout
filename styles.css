@@ -156,11 +156,11 @@
   justify-content: center;
 }
 
-.top-section {
+.top-wrapper {
   background-color: rgb(243, 198, 189);
 }
 @media screen and (min-width: 1400px) {
-  .top-section {
+  .top-wrapper {
     background-color: rgb(243, 198, 189);
     padding-top: 39px;
   }
