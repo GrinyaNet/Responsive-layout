@@ -597,10 +597,9 @@
 @media screen and (min-width: 1400px) {
   .spyglass__actions {
     display: flex;
-    margin-top: 30px;
+    margin-top: 28px;
     height: 48px;
     width: 328px;
-    margin-top: 33px;
     margin-left: 536px;
   }
 }
