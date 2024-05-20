@@ -30,8 +30,7 @@
     font-weight: 700;
     text-align: center;
     color: rgb(43,41,45);
-    padding-top: 49px;
-    margin-top: 110px;
+    padding-top: 49px;    
     margin-left: 35px;
 
     @include for-large-up {
@@ -39,6 +38,7 @@
       height: 34px;
       font-weight: 700;
       margin-left: 617px;
+      margin-top: 110px;
       padding-top: 0;
     }
   }
