@@ -453,18 +453,15 @@
   right: 0;
 }
 
-.tips {
-  margin-top: 8px;
-}
-@media screen and (min-width: 1400px) {
-  .tips {
-    display: none;
-  }
-}
-
 .tip {
+  margin-top: 8px;
   padding: 40px 15px 0px 15px;
   border-bottom: 1px solid rgb(227, 227, 227);
+}
+@media screen and (min-width: 1400px) {
+  .tip {
+    display: none;
+  }
 }
 .tip__subtitle {
   font-weight: bold;
@@ -692,7 +689,7 @@
 .spyglass__figure-eye:hover .rectangle__image-caption {
   color: rgb(255, 255, 255);
 }
-.spyglass__figure__tv {
+.spyglass__figure-tv {
   margin-top: 15px;
   margin-left: 15px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(255, 255, 255);
@@ -701,18 +698,18 @@
   border-radius: 8px;
 }
 @media screen and (min-width: 1400px) {
-  .spyglass__figure__tv {
+  .spyglass__figure-tv {
     margin: 0;
     margin-left: 30px;
   }
 }
-.spyglass__figure__tv:hover {
+.spyglass__figure-tv:hover {
   background: rgb(49, 65, 197);
 }
-.spyglass__figure__tv:hover .rectangle__image-caption {
+.spyglass__figure-tv:hover .rectangle__image-caption {
   color: rgb(255, 255, 255);
 }
-.spyglass__figure__athletes {
+.spyglass__figure-athletes {
   margin-top: 15px;
   margin-left: 15px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(255, 255, 255);
@@ -720,18 +717,18 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
 @media screen and (min-width: 1400px) {
-  .spyglass__figure__athletes {
+  .spyglass__figure-athletes {
     margin: 0;
     margin-left: 30px;
   }
 }
-.spyglass__figure__athletes:hover {
+.spyglass__figure-athletes:hover {
   background: rgb(49, 65, 197);
 }
-.spyglass__figure__athletes:hover .rectangle__image-caption {
+.spyglass__figure-athletes:hover .rectangle__image-caption {
   color: rgb(255, 255, 255);
 }
-.spyglass__figure__creators {
+.spyglass__figure-creators {
   margin-top: 15px;
   margin-left: 15px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(255, 255, 255);
@@ -739,15 +736,15 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
 @media screen and (min-width: 1400px) {
-  .spyglass__figure__creators {
+  .spyglass__figure-creators {
     margin: 0;
     margin-left: 30px;
   }
 }
-.spyglass__figure__creators:hover {
+.spyglass__figure-creators:hover {
   background: rgb(49, 65, 197);
 }
-.spyglass__figure__creators:hover .rectangle__image-caption {
+.spyglass__figure-creators:hover .rectangle__image-caption {
   color: rgb(255, 255, 255);
 }
 
