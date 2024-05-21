@@ -1,9 +1,9 @@
-/* Error: unmatched "}".
+/* Error: Top-level selectors may not contain the parent selector "&".
  *    ,
- * 61 | }
- *    | ^
+ * 18 |   &__subtitle {
+ *    |   ^^^^^^^^^^^
  *    '
- *   styles\tips.scss 61:1  @import
+ *   styles\tips.scss 18:3  @import
  *   styles\index.scss 8:9  root stylesheet */
 
 body::before {
@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: unmatched "}".\a    \2577 \a 61 \2502  }\d\a    \2502  ^\a    \2575 \a   styles\\tips.scss 61:1  @import\a   styles\\index.scss 8:9  root stylesheet';
+  content: 'Error: Top-level selectors may not contain the parent selector "&".\a    \2577 \a 18 \2502    &__subtitle {\d\a    \2502    ^^^^^^^^^^^\a    \2575 \a   styles\\tips.scss 18:3  @import\a   styles\\index.scss 8:9  root stylesheet';
 }
