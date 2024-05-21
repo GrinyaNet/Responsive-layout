@@ -16,7 +16,7 @@
 
 <body>
     <div class="page">
-        <div class="top-wrapper">            
+        <div class="top-section">            
             <header class="header">
                 <div class="logo">
                     <img class="logo__image"
@@ -28,9 +28,9 @@
                     </div>
                 </div>
                 <nav class="navigation">
-                    <a href="#" class="navigation__item navigation__item_selected">Home</a>
-                    <a href="#" class="navigation__item">Stories</a>                    
-                    <a href="#" class="navigation__item">Library<i class="navigation__arrow"></i></a>
+                    <a href="#" class="navigation__iteam navigation_selected">Home</a>
+                    <a href="#" class="navigation__iteam">Stories</a>                    
+                    <a href="#" class="navigation__iteam">Library<i class="navigation__arrow"></i></a>
                 </nav>
                 <button class="action-button header__button">Get Started</button>
                 <button class="header__menu-button">
@@ -98,8 +98,9 @@
                         alt="Google Logo">
                 </div>
             </div>
-        </section>        
-            <section class="tip">
+        </section>
+        <span class="tips">
+            <div class="tip">
                 <span class="tip__subtitle">Acquire Customers</span>
                 <h3 class="tip__title">Easily find leads and customers</h3>
                 <p class="tip__description">Send one-off and automated email, push, and in-app messages to people.
@@ -112,8 +113,8 @@
                         A better way to acquire new users
                     </figcaption>
                 </figure>
-            </section>
-            <section class="tip">
+            </div>
+            <div class="tip">
                 <span class="tip__subtitle">Engage Users</span>
                 <h3 class="tip__title">Engage with your audience</h3>
                 <p class="tip__description">Send one-off and automated email, push, and in-app messages to people.
@@ -126,8 +127,8 @@
                         Knowledge base and smart self-service
                     </figcaption>
                 </figure>
-            </section>
-            <section class="tip">
+            </div>
+            <div class="tip">
                 <span class="tip__subtitle">Support</span>
                 <h3 class="tip__title">The best customer experiences</h3>
                 <p class="tip__description">A beautifully simple system for tracking, prioritizing, and solving customer
@@ -140,7 +141,8 @@
                         Live chat and messaging
                     </figcaption>
                 </figure>
-            </section>        
+            </div>
+        </span>
         <section class="features">
             <img class="features__left-decoration"
                 src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/hidden-ouch.png"
@@ -173,22 +175,23 @@
             <img class="features__banner"
                 src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/invision-screen.png"
                 alt="Invision Screen">
-        </section>        
-            <div class="communicate mobile">
-                <span class="communicate__subtitle">Communicate Better</span>
-                <h3 class="communicate__title">Built for busy small teams</h3>
-                <p class="communicate__description">Three products that can be used independently or combined together
+        </section>
+        <section class="mobile">
+            <div class="responsive">
+                <span class="responsive__subtitle">Communicate Better</span>
+                <h3 class="responsive__title">Built for busy small teams</h3>
+                <p class="responsive__description">Three products that can be used independently or combined together
                     for your company’s needs.</p>
-                <button class="action-button communicate__button">Get Started</button>
-                <figure class="communicate__dicoration">
-                    <img class="communicate__image"
+                <button class="action-button responsive__button">Get Started</button>
+                <figure class="responsive__dicoration">
+                    <img class="responsive__image"
                         src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/hand-with-phone.png"
                         alt="Hand with phone">
-                    <figcaption class="communicate__image-caption">A better way to acquire new users</figcaption>
+                    <figcaption class="responsive__image-caption">A better way to acquire new users</figcaption>
                 </figure>
-                <hr class="communicate__line">
+                <hr class="responsive__line">
                 <article class="article">
-                    <p><b>Subscriptions.</b> Foundation works with the tools and services you already
+                    <p class=""><b>Subscriptions.</b> Foundation works with the tools and services you already
                         use every
                         day.
                         <br>
@@ -209,44 +212,45 @@
                         <span class="article__link">Communication guidelines</span>
                     </p>
                 </article>
-            </div>        
-        <section class="audience spyglass">
-            <div>
-                <span class="spyglass__subtitle">Engage Visitors</span>
-                <h3 class="spyglass__title">Understand your audience</h3>
-                <p class="spyglass__description">Early stage company? Eligible applicants get all of our products for
+            </div>
+        </section>
+        <section class="audience">
+            <div class="rectangle">
+                <span class="rectangle__subtitle">Engage Visitors</span>
+                <h3 class="rectangle__title">Understand your audience</h3>
+                <p class="rectangle__description">Early stage company? Eligible applicants get all of our products for
                     just $49 a month.</p>
-                <div class="spyglass__actions">
-                    <button class="action-button spyglass__action-btn">Get Started</button>
-                    <button class="spyglass__learn-more-btn spyglass__action-btn">Learn More</button>
+                <div class="rectangle__actions">
+                    <button class="action-button rectangle__action-btn">Get Started</button>
+                    <button class="rectangle__learn-more-btn rectangle__action-btn">Learn More</button>
                 </div>
-                <div class="spyglass__desctop">
-                    <figure class="spyglass__figure spyglass__figure-eye">
-                        <img class="spyglass__image"
+                <div class="rectangle__desctop">
+                    <figure class="rectangle__figure rectangle__figure__eye">
+                        <img class="rectangle__image"
                             src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-1.png"
                             alt="One eye">
-                        <figcaption class="spyglass__image-caption">Developers</figcaption>
+                        <figcaption class="rectangle__image-caption">Developers</figcaption>
                     </figure>
-                    <figure class="spyglass__figure spyglass__figure-tv">
-                        <img class="spyglass__image"
+                    <figure class="rectangle__figure rectangle__figure__tv">
+                        <img class="rectangle__image"
                             src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-2.png"
                             alt="TV">
-                        <figcaption class="spyglass__image-caption">Entertainment</figcaption>
+                        <figcaption class="rectangle__image-caption">Entertainment</figcaption>
                     </figure>
-                    <figure class="spyglass__figure spyglass__figure-athletes">
-                        <img class="spyglass__image"
+                    <figure class="rectangle__figure rectangle__figure__athletes">
+                        <img class="rectangle__image"
                             src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-3.png"
                             alt="Athletes">
-                        <figcaption class="spyglass__image-caption">Athletes</figcaption>
+                        <figcaption class="rectangle__image-caption">Athletes</figcaption>
                     </figure>
-                    <figure class="spyglass__figure spyglass__figure-creators">
-                        <img class="spyglass__image"
+                    <figure class="rectangle__figure rectangle__figure__creators">
+                        <img class="rectangle__image"
                             src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-4.png"
                             alt="Creators">
-                        <figcaption class="spyglass__image-caption">Creators</figcaption>
+                        <figcaption class="rectangle__image-caption">Creators</figcaption>
                     </figure>
-                </div> 
-                </div>           
+                </div>
+            </div>
     </div>
     </section>
     <section class="order">
@@ -269,22 +273,22 @@
     <footer class="footer">
         <div class="footer-navigation">
             <div class="about-company">
-                <div class="logo">
-                    <img class="logo__image"
+                <div class="Logo">
+                    <img class="Logo__image"
                         src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-dark.png"
-                        alt="logo">
-                    <div class="logo__text">
-                        <div class="logo__name">Foundation</div>
-                        <div class="logo__description">Startup landing template</div>
+                        alt="Logo">
+                    <div class="Logo__text">
+                        <div class="Logo__name">Foundation</div>
+                        <div class="Logo__description">Startup landing template</div>
                     </div>
                 </div>
                 <div class="logo__vertical">
-                    <img class="logo__vertical-image"
+                    <img class="logo__vertical__image"
                         src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-dark.png"
                         alt="logo__vertical">
-                    <div class="logo__vertical-text">
-                        <div class="logo__vertical-name">Foundation</div>
-                        <div class="logo__vertical-description">Startup landing template</div>
+                    <div class="logo__vertical__text">
+                        <div class="logo__vertical__name">Foundation</div>
+                        <div class="logo__vertical__description">Startup landing template</div>
                     </div>
                 </div>
                 <p class="footer__description">Foundation is a website template for startups and small teams. It
@@ -304,28 +308,28 @@
                 <div class="additional-navigation__column nav-links">
                     <h3 class="nav-links__title">Product</h3>
                     <ul class="nav-links__list">
-                        <li class="nav-links__list-item"><a href="#" style="color: inherit; text-decoration: none;"> Acquire Users</a>
+                        <li class="nav-links__list-item"><a  href="#" style="color: inherit; text-decoration: none;"> Acquire Users</a>
                         </li>
-                        <li class="nav-links__list-item"><a href="#" style="color: inherit; text-decoration: none;">Content Marketing</a>                            
+                        <li class="nav-links__list-item"><a  href="#" style="color: inherit; text-decoration: none;">Content Marketing</a>                            
                         </li>
-                        <li class="nav-links__list-item"><a href="#" style="color: inherit; text-decoration: none;">Website Templates</a>                            
+                        <li class="nav-links__list-item"><a  href="#" style="color: inherit; text-decoration: none;">Website Templates</a>                            
                         </li>
-                        <li class="nav-links__list-item"><a href="#" style="color: inherit; text-decoration: none;">Customer Management</a>                            
+                        <li class="nav-links__list-item"><a  href="#" style="color: inherit; text-decoration: none;">Customer Management</a>                            
                         </li>
-                        <li class="nav-links__list-item"><a href="#" style="color: inherit; text-decoration: none;">Virtual Inbox</a>                            
+                        <li class="nav-links__list-item"><a  href="#" style="color: inherit; text-decoration: none;">Virtual Inbox</a>                            
                         </li>
                     </ul>
                 </div>
                 <div class="additional-navigation__column nav-links">
                     <h3 class="nav-links__title">Company</h3>
                     <ul class="nav-links__list">
-                        <li class="nav-links__list-item"><a href="#" style="color: inherit; text-decoration: none;">About Foundation</a>
+                        <li class="nav-links__list-item"><a  href="#" style="color: inherit; text-decoration: none;">About Foundation</a>
                         </li>
-                        <li class="nav-links__list-item"><a href="#" style="color: inherit; text-decoration: none;">Brand Guidelines</a>
+                        <li class="nav-links__list-item"><a  href="#" style="color: inherit; text-decoration: none;">Brand Guidelines</a>
                         </li>
-                        <li class="nav-links__list-item"><a href="#" style="color: inherit; text-decoration: none;">Press Kit</a>
+                        <li class="nav-links__list-item"><a  href="#" style="color: inherit; text-decoration: none;">Press Kit</a>
                         </li>
-                        <li class="nav-links__list-item"><a href="#" style="color: inherit; text-decoration: none;">Support</a>
+                        <li class="nav-links__list-item"><a  href="#" style="color: inherit; text-decoration: none;">Support</a>
                         </li>
                     </ul>
                 </div>

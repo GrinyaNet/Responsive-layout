@@ -1,5 +1,5 @@
 .audience {
-  height: 1668px;
+  height: 1808px;
   width: 320;
   background-color: rgb(0, 161, 198, 0.07);
   padding-left: 15px;  
@@ -13,7 +13,7 @@
   }
 }
 
-.spyglass {
+.rectangle {
   padding: 0 15px 0 0px;
 
   @include for-large-up {
@@ -30,16 +30,14 @@
     font-weight: 700;
     text-align: center;
     color: rgb(43,41,45);
-    padding-top: 49px;    
+    padding-top: 49px;
     margin-left: 35px;
 
     @include for-large-up {
       width: 167px;
       height: 34px;
       font-weight: 700;
-      margin-left: 623px;
-      //margin-left: 617px;
-      margin-top: 110px;
+      margin-left: 617px;
       padding-top: 0;
     }
   }
@@ -63,9 +61,7 @@
       width: 555px;
       height: 112px;
       margin-bottom: 0;
-      margin-left: 427px;
-      margin-top: 24px;
-      //margin-left: 416px;
+      margin-left: 416px;
     }
   }
 
@@ -82,9 +78,7 @@
       margin-top: 30px;
       height: 72px;
       width: 555px;
-      margin-top: 33px;
-      margin-left: 427px;
-      //margin-left: 416px;
+      margin-left: 416px;
     }
   }
 
@@ -93,10 +87,9 @@
 
     @include for-large-up {
       display: flex;
-      margin-top: 27px;
-      //margin-top: 30px;
+      margin-top: 30px;
       height: 48px;
-      width: 328px;      
+      width: 328px;
       margin-left: 536px;
     }
   }
@@ -129,7 +122,7 @@
     }
   }
 
-  &__desctop {   
+  &__desctop {
     @include for-large-up {
       display: flex;
       justify-content: space-between;
@@ -147,8 +140,7 @@
 
     &-caption {
       margin: 0;
-      margin-top: 20px;
-      //margin-top: 22px;
+      margin-top: 22px;
       width: 250px;
       height: 28px;
       font-weight: 700;
@@ -175,9 +167,8 @@
       margin: 0;
     }
 
-    &-eye {
+    &__eye {
       margin-top: 39px;
-      margin-left: 15px;
       background: linear-gradient(
           180deg,
           rgba(255, 255, 255, 0.05) 0%,
@@ -191,7 +182,6 @@
 
       @include for-large-up {
         margin: 0;
-        //margin-top: 4px;
       }
 
       &:hover {
@@ -203,9 +193,8 @@
       }
     }
 
-    &-tv {
+    &__tv {
       margin-top: 15px;
-      margin-left: 15px;
       background: linear-gradient(
           180deg,
           rgba(255, 255, 255, 0.05) 0%,
@@ -233,9 +222,8 @@
       }
     }
 
-    &-athletes {
+    &__athletes {
       margin-top: 15px;
-      margin-left: 15px;
       background: linear-gradient(
           180deg,
           rgba(255, 255, 255, 0.05) 0%,
@@ -261,9 +249,8 @@
       }
     }
 
-    &-creators {
+    &__creators {
       margin-top: 15px;
-      margin-left: 15px;
       background: linear-gradient(
           180deg,
           rgba(255, 255, 255, 0.05) 0%,
