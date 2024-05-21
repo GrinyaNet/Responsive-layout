@@ -514,10 +514,10 @@
 @media screen and (min-width: 1400px) {
   .audience {
     display: flex;
-    height: 983px;
+    height: 883px;
     width: 1400px;
     padding-left: 0;
-    padding: 108px 0 110px 0;
+    padding: 108px 0 0 0;
   }
 }
 
@@ -526,7 +526,7 @@
 }
 @media screen and (min-width: 1400px) {
   .spyglass {
-    height: 983px;
+    height: 783px;
     width: 1400px;
   }
 }
