@@ -741,15 +741,6 @@
   color: rgb(255, 255, 255);
 }
 
-.mobile {
-  padding: 50px 15px 0 15px;
-}
-@media screen and (min-width: 1400px) {
-  .mobile {
-    display: none;
-  }
-}
-
 .communicate__subtitle {
   margin: 0;
   width: 225px;
@@ -758,6 +749,11 @@
   font-size: 22px;
   line-height: 34px;
   color: rgb(1, 137, 209);
+}
+@media screen and (min-width: 1400px) {
+  .communicate__subtitle {
+    display: none;
+  }
 }
 .communicate__title {
   margin: 0;
