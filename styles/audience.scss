@@ -31,7 +31,7 @@
     text-align: center;
     color: rgb(43,41,45);
     padding-top: 49px;
-    margin-left: 35px;
+    //margin-left: 35px;
 
     @include for-large-up {
       width: 167px;
@@ -161,7 +161,7 @@
     height: 300px;
     border-radius: 8px;
     cursor: pointer;
-    margin-left: 35px;
+    //margin-left: 35px;
 
     @include for-large-up {
       margin: 0;
