@@ -741,6 +741,11 @@
   color: rgb(255, 255, 255);
 }
 
+@media screen and (min-width: 1400px) {
+  .communicate {
+    display: none;
+  }
+}
 .communicate__subtitle {
   margin: 0;
   width: 225px;
@@ -971,8 +976,9 @@
     margin: 0;
   }
 }
+
 @media screen and (max-width: 399px) {
-  .footer .logo {
+  .logo {
     display: none;
   }
 }

@@ -1,5 +1,9 @@
 
 .communicate {
+  @include for-large-up {
+    display: none;
+  }
+
   &__subtitle {
     margin: 0;
     width: 225px;
