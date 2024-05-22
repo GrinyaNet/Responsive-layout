@@ -506,6 +506,7 @@
   width: 320;
   background-color: rgba(0, 161, 198, 0.07);
   padding-left: 15px;
+  padding-top: 49px;
 }
 @media screen and (min-width: 1400px) {
   .audience {
@@ -528,14 +529,12 @@
 }
 .spyglass__subtitle {
   display: block;
-  width: 290px;
   height: 34px;
   font-size: 22px;
   line-height: 34px;
   font-weight: 700;
   text-align: center;
   color: rgb(43, 41, 45);
-  padding-top: 49px;
 }
 @media screen and (min-width: 1400px) {
   .spyglass__subtitle {
@@ -741,6 +740,10 @@
   color: rgb(255, 255, 255);
 }
 
+.communicate {
+  padding-left: 15px;
+  padding-right: 15px;
+}
 @media screen and (min-width: 1400px) {
   .communicate {
     display: none;
@@ -848,7 +851,9 @@
 }
 .order__illustration {
   max-width: 200px;
-  margin-left: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media screen and (min-width: 1400px) {
   .order__illustration {

@@ -2,7 +2,8 @@
   height: 1808px;
   width: 320;
   background-color: rgb(0, 161, 198, 0.07);
-  padding-left: 15px;  
+  padding-left: 15px;
+  padding-top: 49px;
 
   @include for-large-up {
     display: flex;
@@ -23,14 +24,14 @@
 
   &__subtitle {
     display: block;
-    width: 290px;
+    //width: 290px;
     height: 34px;
     font-size: 22px;
     line-height: 34px;
     font-weight: 700;
     text-align: center;
     color: rgb(43,41,45);
-    padding-top: 49px;    
+    //padding-top: 49px;    
 
     @include for-large-up {
       width: 167px;

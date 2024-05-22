@@ -1,5 +1,7 @@
 
 .communicate {
+ padding-left: 15px;
+ padding-right: 15px;
   @include for-large-up {
     display: none;
   }
