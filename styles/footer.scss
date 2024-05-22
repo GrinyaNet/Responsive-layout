@@ -56,11 +56,11 @@
     }
   }
 }
-  .logo {    
-    @include for-large-down {
-      display: none;
-    }
-  }
+  // .logo {    
+  //   @include for-large-down {
+  //     display: none;
+  //   }
+  // }
 
 
 .about-company {

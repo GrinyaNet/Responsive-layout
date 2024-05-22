@@ -87,6 +87,10 @@
   display: flex;
   margin-left: 9px;
 
+   @include for-large-down {
+     display: none;
+   }
+
   @include for-large-up {
     margin-left: 0px;
   }
