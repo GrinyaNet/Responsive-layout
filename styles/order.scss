@@ -10,7 +10,7 @@
   }
 
   &__details {
-    max-width: 555px;
+    max-width: 730px;    
   }
 
   &__illustration { 
@@ -20,8 +20,8 @@
     margin-right: auto;    
 
     @include for-large-up {
-      max-width: 269px;
-      margin-right: 121px;
+      display: block;
+      max-width: 269px;      
     }
   }
 

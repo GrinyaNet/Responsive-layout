@@ -329,6 +329,7 @@
 .features {
   display: flex;
   position: relative;
+  margin-bottom: 70px;
 }
 @media screen and (max-width: 399px) {
   .features {
@@ -799,7 +800,7 @@
   }
 }
 .order__details {
-  max-width: 555px;
+  max-width: 730px;
 }
 .order__illustration {
   max-width: 200px;
@@ -809,8 +810,8 @@
 }
 @media screen and (min-width: 1400px) {
   .order__illustration {
+    display: block;
     max-width: 269px;
-    margin-right: 121px;
   }
 }
 .order__title {

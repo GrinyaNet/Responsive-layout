@@ -21,8 +21,7 @@
   &__title {
     font-weight: 700;
     font-size: 22px;
-    line-height: 32px;
-    //margin: 0;
+    line-height: 32px;    
 
     @include for-large-up {
       font-weight: 700;
