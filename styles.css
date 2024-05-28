@@ -582,7 +582,7 @@
   }
 }
 @media screen and (min-width: 1400px) {
-  .spyglass__desctop {
+  .spyglass__pipe {
     display: flex;
     justify-content: space-between;
     margin-top: 111px;
@@ -749,7 +749,7 @@
   width: 290px;
   height: 291px;
 }
-.communicate__dicoration {
+.communicate__decoration {
   margin: 0;
 }
 .communicate__image-caption {

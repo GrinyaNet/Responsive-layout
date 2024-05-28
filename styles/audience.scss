@@ -120,7 +120,7 @@
     }
   }
 
-  &__desctop {
+  &__pipe {
     @include for-large-up {
       display: flex;
       justify-content: space-between;
