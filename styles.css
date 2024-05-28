@@ -1106,11 +1106,13 @@
   }
 }
 .logo__name {
+  margin: 0px;
   font-size: 20px;
   line-height: 25px;
   font-weight: 700;
 }
 .logo__description {
+  margin: 0px;
   display: none;
 }
 @media screen and (min-width: 1400px) {
