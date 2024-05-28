@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
 
-  &__description {
+  &__description { 
     display: none;
     width: 360px;
     line-height: 26px;
@@ -30,7 +30,7 @@
     }
   }
 
-  &-navigation {
+  &__top-wrap {
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -182,5 +182,21 @@
     line-height: 25px;
     text-align: center;
     color: rgba(43, 41, 45, 0.6);
+  }
+}
+
+.about-company {
+
+  &__description {
+    display: none;
+    width: 360px;
+    line-height: 26px;
+    font-size: 18px;
+    margin-top: 26px;
+    color: rgba(43, 41, 45, 0.6);
+
+    @include for-large-up {
+      display: block;
+    }
   }
 }
