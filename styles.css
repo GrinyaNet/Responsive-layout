@@ -464,15 +464,6 @@
   padding-left: 17px;
   padding-top: 49px;
 }
-@media screen and (min-width: 1400px) {
-  .audience {
-    display: flex;
-    height: 883px;
-    width: 1400px;
-    padding-left: 0;
-    padding: 208px 0 0 0;
-  }
-}
 
 .spyglass {
   display: block;
