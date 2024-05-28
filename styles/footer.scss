@@ -3,18 +3,18 @@
   display: flex;
   flex-direction: column;
 
-  &__description {
-    display: none;
-    width: 360px;
-    line-height: 26px;
-    font-size: 18px;
-    margin-top: 26px;
-    color: rgba(43, 41, 45, 0.6);
+  // &__description {
+  //   display: none;
+  //   width: 360px;
+  //   line-height: 26px;
+  //   font-size: 18px;
+  //   margin-top: 26px;
+  //   color: rgba(43, 41, 45, 0.6);
 
-    @include for-large-up {
-      display: block;
-    }
-  }
+  //   @include for-large-up {
+  //     display: block;
+  //   }
+  // }
 
   &-links {
     margin-left: 15px;
@@ -30,7 +30,7 @@
     }
   }
 
-  &-navigation {
+  &__top-wrapper {
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -59,6 +59,19 @@
 
 .about-company {
   margin-top: 44px;
+
+  &__description {
+    display: none;
+    width: 360px;
+    line-height: 26px;
+    font-size: 18px;
+    margin-top: 26px;
+    color: rgba(43, 41, 45, 0.6);
+
+    @include for-large-up {
+      display: block;
+    }
+  }
 }
 
 .downloads {
