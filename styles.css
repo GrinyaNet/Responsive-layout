@@ -418,7 +418,6 @@
   }
 }
 .tip__subtitle {
-  margin: 0;
   font-weight: bold;
   font-size: 22px;
   line-height: 34px;
@@ -457,19 +456,30 @@
   max-width: 100%;
 }
 
-.spyglass {
-  display: block;
+.audience {
   height: 1808px;
   width: 320;
   background-color: rgba(0, 161, 198, 0.07);
-  padding-left: 17px;
+  padding-left: 15px;
   padding-top: 49px;
+}
+@media screen and (min-width: 1400px) {
+  .audience {
+    display: flex;
+    height: 883px;
+    width: 1400px;
+    padding-left: 0;
+    padding: 108px 0 0 0;
+  }
+}
+
+.spyglass {
+  padding: 0 15px 0 0px;
 }
 @media screen and (min-width: 1400px) {
   .spyglass {
     height: 783px;
     width: 1400px;
-    padding-top: 110px;
   }
 }
 .spyglass__subtitle {
@@ -486,7 +496,7 @@
     width: 167px;
     height: 34px;
     font-weight: 700;
-    margin-left: 605px;
+    margin-left: 617px;
     padding-top: 0;
   }
 }
@@ -510,7 +520,7 @@
     width: 555px;
     height: 112px;
     margin-bottom: 0;
-    margin-left: 413px;
+    margin-left: 416px;
   }
 }
 .spyglass__description {
@@ -524,10 +534,10 @@
 }
 @media screen and (min-width: 1400px) {
   .spyglass__description {
-    margin-top: 31px;
+    margin-top: 30px;
     height: 72px;
     width: 555px;
-    margin-left: 413px;
+    margin-left: 416px;
   }
 }
 .spyglass__actions {
@@ -539,7 +549,7 @@
     margin-top: 30px;
     height: 48px;
     width: 328px;
-    margin-left: 525px;
+    margin-left: 536px;
   }
 }
 .spyglass__learn-more-btn {
@@ -571,7 +581,7 @@
   }
 }
 @media screen and (min-width: 1400px) {
-  .spyglass__pipe {
+  .spyglass__desctop {
     display: flex;
     justify-content: space-between;
     margin-top: 111px;
@@ -738,7 +748,7 @@
   width: 290px;
   height: 291px;
 }
-.communicate__decoration {
+.communicate__dicoration {
   margin: 0;
 }
 .communicate__image-caption {
@@ -914,13 +924,13 @@
     height: 50px;
   }
 }
-.footer__top-wrap {
+.footer-navigation {
   margin: 0;
   display: flex;
   flex-direction: column;
 }
 @media screen and (min-width: 1400px) {
-  .footer__top-wrap {
+  .footer-navigation {
     width: 1140px;
     height: 338px;
     margin: 0 auto;
@@ -1003,10 +1013,6 @@
   padding: 0;
   margin-top: 18px;
 }
-.nav-links__list-item {
-  text-decoration: none;
-  color: inherit;
-}
 
 .terms {
   line-height: 22px;
@@ -1066,20 +1072,6 @@
   line-height: 25px;
   text-align: center;
   color: rgba(43, 41, 45, 0.6);
-}
-
-.about-company__description {
-  display: none;
-  width: 360px;
-  line-height: 26px;
-  font-size: 18px;
-  margin-top: 26px;
-  color: rgba(43, 41, 45, 0.6);
-}
-@media screen and (min-width: 1400px) {
-  .about-company__description {
-    display: block;
-  }
 }
 
 .logo {
