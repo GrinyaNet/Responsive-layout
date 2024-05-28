@@ -2,7 +2,8 @@
    height: 1808px;
    width: 320;
    background-color: rgb(0, 161, 198, 0.07);
-   padding-left: 15px;
+   padding-left: 10px;
+   //padding-left: 15px;
    padding-top: 49px;
 
   @include for-large-up {
@@ -20,7 +21,8 @@
   height: 1808px;
   width: 320;
   background-color: rgb(0, 161, 198, 0.07);
-  padding-left: 15px;
+  padding-left: 10px;
+  //padding-left: 15px;
   padding-top: 49px;
   //padding: 0 15px 0 0px;
 
@@ -82,7 +84,8 @@
     color: rgb(43,41,45);
 
     @include for-large-up {
-      margin-top: 30px;
+      margin-top: 29px;
+      //margin-top: 30px;
       height: 72px;
       width: 555px;
       margin-left: 413px;
