@@ -829,7 +829,7 @@
   line-height: 40px;
   letter-spacing: -0.357143px;
   margin-top: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 19px;
 }
 .order__text {
   font-size: 24px;
@@ -887,6 +887,7 @@
   font-size: 14px;
   line-height: 22px;
   color: rgba(43, 41, 45, 0.6);
+  margin-top: 4px;
 }
 .order__terms-link {
   color: rgb(49, 66, 198);
