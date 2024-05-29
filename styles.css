@@ -806,7 +806,7 @@
 }
 @media screen and (min-width: 1400px) {
   .order__details {
-    margin-right: 190px;
+    margin-right: 200px;
   }
 }
 .order__illustration {
@@ -886,7 +886,7 @@
   font-size: 14px;
   line-height: 22px;
   color: rgba(43, 41, 45, 0.6);
-  margin-top: 7px;
+  margin-top: 8px;
 }
 .order__terms-link {
   color: rgb(49, 66, 198);
