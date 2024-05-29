@@ -3,19 +3,6 @@
   display: flex;
   flex-direction: column;
 
-  // &__description {
-  //   display: none;
-  //   width: 360px;
-  //   line-height: 26px;
-  //   font-size: 18px;
-  //   margin-top: 26px;
-  //   color: rgba(43, 41, 45, 0.6);
-
-  //   @include for-large-up {
-  //     display: block;
-  //   }
-  // }
-
   &-links {
     margin-left: 15px;
     display: flex;
