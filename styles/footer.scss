@@ -45,7 +45,7 @@
   }
 
   &__line {
-    border-top: 1px solid rgb(43,41,43);
+    border-top: 1px solid rgb(43, 41, 43);
     width: 100%;
     opacity: 0.1;
     margin: 0;
@@ -119,7 +119,7 @@
     font-weight: bold;
     font-size: 22px;
     line-height: 28px;
-    color: rgb(43,41,43);
+    color: rgb(43, 41, 43);
     margin: 0;
   }
 
@@ -149,7 +149,7 @@
     margin-top: 0;
   }
 
-  &__items {    
+  &__items {
     color: rgba(43, 41, 45, 0.6);
     margin-right: 22px;
   }
@@ -161,7 +161,7 @@
 
   @include for-large-up {
     margin-left: auto;
-    
+
   }
 
   &__item {

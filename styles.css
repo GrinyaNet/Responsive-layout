@@ -456,7 +456,7 @@
   max-width: 100%;
 }
 
-.spyglass {
+.audience {
   height: 1808px;
   width: 320;
   background-color: rgba(0, 161, 198, 0.07);
@@ -464,11 +464,22 @@
   padding-top: 49px;
 }
 @media screen and (min-width: 1400px) {
-  .spyglass {
+  .audience {
+    display: flex;
     height: 883px;
     width: 1400px;
     padding-left: 0;
     padding: 108px 0 0 0;
+  }
+}
+
+.spyglass {
+  padding: 0 15px 0 0px;
+}
+@media screen and (min-width: 1400px) {
+  .spyglass {
+    height: 783px;
+    width: 1400px;
   }
 }
 .spyglass__subtitle {
