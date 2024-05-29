@@ -17,7 +17,7 @@
     max-width: 730px;
 
     @include for-large-up {
-      margin-right: 170px;
+      margin-right: 190px;
       //margin-right: 150px;
     }
   }
@@ -103,7 +103,7 @@
     font-size: 14px;
     line-height: 22px;
     color: rgba(43, 41, 45, 0.6);
-    margin-top: 4px;
+    margin-top: 7px;
   }
 
   &__terms-link {
