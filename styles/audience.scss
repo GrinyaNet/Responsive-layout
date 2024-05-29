@@ -1,25 +1,35 @@
 .audience {
+  // height: 1808px;
+  // width: 320;
+  // background-color: rgb(0, 161, 198, 0.07);
+  // padding-left: 15px;
+  // padding-top: 49px;
+
+  @include for-large-up {
+    // display: flex;
+    // height: 883px;
+    // width: 1400px;
+    // padding-left: 0;    
+    // padding: 108px 0 0 0;
+  }
+}
+
+.spyglass {
   height: 1808px;
   width: 320;
   background-color: rgb(0, 161, 198, 0.07);
   padding-left: 15px;
   padding-top: 49px;
+  //padding: 0 15px 0 0px;
 
   @include for-large-up {
-    display: flex;
+    //display: flex;
     height: 883px;
     width: 1400px;
     padding-left: 0;    
     padding: 108px 0 0 0;
-  }
-}
-
-.spyglass {
-  padding: 0 15px 0 0px;
-
-  @include for-large-up {
-    height: 783px;
-    width: 1400px;
+    //height: 783px;
+    //width: 1400px;
   }
 
   &__subtitle {
