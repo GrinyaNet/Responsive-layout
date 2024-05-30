@@ -10,7 +10,8 @@
     height: 883px;
     width: 1400px;
     padding-left: 0;
-   // padding: 108px 0 0 0;
+//    padding: 108px 0 0 0;
+    //margin-top: 108px;
   }
 }
 
@@ -20,6 +21,7 @@
   @include for-large-up {
     height: 783px;
     width: 1400px;
+    padding: 108px 0 0 0;
   }
 
   &__subtitle {

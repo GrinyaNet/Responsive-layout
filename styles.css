@@ -483,6 +483,7 @@
   .spyglass {
     height: 783px;
     width: 1400px;
+    padding: 108px 0 0 0;
   }
 }
 .spyglass__subtitle {
