@@ -1,20 +1,20 @@
-@import "breakpoints.scss";
-@import "common.scss";
-@import "header.scss";
-@import "headline.scss";
-@import "about.scss";
-@import "customers.scss";
-@import "features.scss";
-@import "tips.scss";
-@import "audience.scss";
-@import "mobile.scss";
-@import "order.scss";
-@import "footer.scss";
-@import "logo.scss";
+@import 'breakpoints.scss';
+@import 'common.scss';
+@import 'header.scss';
+@import 'headline.scss';
+@import 'about.scss';
+@import 'customers.scss';
+@import 'features.scss';
+@import 'tips.scss';
+@import 'audience.scss';
+@import 'mobile.scss';
+@import 'order.scss';
+@import 'footer.scss';
+@import 'logo.scss';
 
 body {
   font-size: 16px;
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   color: rgb(43, 41, 43);
 }
 
