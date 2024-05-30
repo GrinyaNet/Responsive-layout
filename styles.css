@@ -477,13 +477,13 @@
 }
 
 .spyglass {
-  padding: 108px 15px 0 0px;
+  padding: 58px 15px 0 0px;
 }
 @media screen and (min-width: 1400px) {
   .spyglass {
     height: 783px;
     width: 1400px;
-    padding: 58px 0 0 0;
+    padding: 108px 0 0 0;
   }
 }
 .spyglass__subtitle {

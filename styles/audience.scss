@@ -16,13 +16,13 @@
 }
 
 .spyglass {
-  padding: 108px 15px 0 0px;
+  padding: 58px 15px 0 0px;
   //padding: 0 15px 0 0px;
 
   @include for-large-up {
     height: 783px;
     width: 1400px;
-    padding: 58px 0 0 0;
+    padding: 108px 0 0 0;
   }
 
   &__subtitle {
