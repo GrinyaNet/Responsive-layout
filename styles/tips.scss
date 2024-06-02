@@ -39,14 +39,15 @@
 
   &__image {
     margin-top: 29px;
-
-    &-caption {
-      font-size: 14px;
-      line-height: 22px;
-      text-align: center;
-      color: rgba(43, 41, 45, 0.6);
-      margin-top: 20px;
-      max-width: 100%;
-    }
   }
+
+  &__image-caption {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(43, 41, 45, 0.6);
+    margin-top: 20px;
+    max-width: 100%;
+  }
+
 }
