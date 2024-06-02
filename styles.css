@@ -141,6 +141,7 @@
   .headline__content {
     position: absolute;
     z-index: 1;
+    margin: 0;
   }
 }
 .headline__title {
@@ -148,6 +149,7 @@
   font-size: 50px;
   line-height: 50px;
   letter-spacing: -0.3125px;
+  margin: 0;
 }
 @media screen and (min-width: 1400px) {
   .headline__title {
@@ -347,6 +349,7 @@
   font-size: 22px;
   line-height: 34px;
   color: rgb(0, 155, 77);
+  margin: 0;
 }
 .features__title {
   font-weight: bold;
@@ -386,6 +389,7 @@
   font-size: 22px;
   line-height: 26px;
   color: rgb(49, 66, 198);
+  margin: 0;
   margin-left: 15px;
 }
 .advantages__description {
@@ -424,6 +428,7 @@
   color: rgb(0, 155, 77);
 }
 .tip__title {
+  margin: 0;
   margin-top: 17px;
   font-weight: 700;
   font-size: 40px;
@@ -433,9 +438,11 @@
 .tip__description {
   font-size: 24px;
   line-height: 24px;
+  margin: 0;
   margin-top: 13px;
 }
 .tip__decoration {
+  margin: 0;
   margin-bottom: 40px;
   display: flex;
   flex-direction: column;
@@ -520,6 +527,7 @@
   }
 }
 .spyglass__description {
+  margin: 0;
   margin-top: 18px;
   font-weight: 400;
   font-size: 24px;
@@ -586,6 +594,7 @@
   }
 }
 .spyglass__image {
+  margin: 0;
   width: 138px;
   height: 195px;
 }
@@ -604,16 +613,27 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 0;
   width: 290px;
   height: 300px;
   border-radius: 8px;
   cursor: pointer;
+}
+@media screen and (min-width: 1400px) {
+  .spyglass__figure {
+    margin: 0;
+  }
 }
 .spyglass__figure-eye {
   margin-top: 39px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(255, 255, 255);
   background-blend-mode: overlay, normal;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+}
+@media screen and (min-width: 1400px) {
+  .spyglass__figure-eye {
+    margin: 0;
+  }
 }
 .spyglass__figure-eye:hover {
   background: rgb(49, 65, 197);
@@ -630,6 +650,7 @@
 }
 @media screen and (min-width: 1400px) {
   .spyglass__figure-tv {
+    margin: 0;
     margin-left: 30px;
   }
 }
@@ -647,6 +668,7 @@
 }
 @media screen and (min-width: 1400px) {
   .spyglass__figure-athletes {
+    margin: 0;
     margin-left: 30px;
   }
 }
@@ -664,6 +686,7 @@
 }
 @media screen and (min-width: 1400px) {
   .spyglass__figure-creators {
+    margin: 0;
     margin-left: 30px;
   }
 }
@@ -684,6 +707,7 @@
   }
 }
 .communicate__subtitle {
+  margin: 0;
   width: 225px;
   height: 34px;
   font-weight: 700;
@@ -697,6 +721,7 @@
   }
 }
 .communicate__title {
+  margin: 0;
   margin-top: 17px;
   width: 290px;
   font-weight: 700;
@@ -706,6 +731,7 @@
   color: rgb(43, 41, 45);
 }
 .communicate__description {
+  margin: 0;
   margin-top: 18px;
   font-size: 24px;
   line-height: 34px;
@@ -719,11 +745,16 @@
   width: 160px;
 }
 .communicate__image {
+  margin: 0;
   margin-top: 40px;
   width: 290px;
   height: 291px;
 }
+.communicate__decoration {
+  margin: 0;
+}
 .communicate__image-caption {
+  margin: 0;
   margin-top: 17px;
   margin-left: 43px;
   width: 234px;
@@ -734,6 +765,7 @@
   color: rgba(43, 41, 45, 0.6);
 }
 .communicate__line {
+  margin: 0;
   margin-top: 40px;
   height: 1px;
   width: 150px;
@@ -742,12 +774,14 @@
 }
 
 .article {
+  margin: 0;
   width: 290px;
   font-weight: 400;
   font-size: 18px;
   line-height: 26px;
 }
 .article__link {
+  margin: 0;
   font-weight: 700;
   font-size: 18px;
   line-height: 26px;
@@ -800,6 +834,7 @@
 .order__text {
   font-size: 24px;
   line-height: 34px;
+  margin: 0;
   margin-top: 18px;
 }
 @media screen and (min-width: 1400px) {
@@ -863,6 +898,7 @@
   flex-direction: column;
 }
 .footer__top-wrapper {
+  margin: 0;
   display: flex;
   flex-direction: column;
 }
@@ -879,8 +915,15 @@
   border-top: 1px solid rgb(43, 41, 43);
   width: 100%;
   opacity: 0.1;
+  margin: 0;
   margin-top: 40px;
 }
+@media screen and (min-width: 1400px) {
+  .footer__line {
+    margin: 0;
+  }
+}
+
 .footer-links {
   margin-left: 15px;
   display: flex;
@@ -920,6 +963,7 @@
 }
 @media screen and (min-width: 1400px) {
   .downloads {
+    margin: 0;
     margin-top: 25px;
     justify-content: left;
   }
@@ -946,6 +990,7 @@
 }
 @media screen and (min-width: 1400px) {
   .additional-navigation__column {
+    margin: 0;
     margin-right: 29px;
   }
 }
@@ -958,12 +1003,14 @@
   font-size: 22px;
   line-height: 28px;
   color: rgb(43, 41, 43);
+  margin: 0;
 }
 .nav-links__list {
   list-style-type: none;
   font-size: 18px;
   line-height: 30px;
   color: rgba(43, 41, 45, 0.6);
+  margin: 0;
   padding: 0;
   margin-top: 18px;
 }
@@ -1063,11 +1110,13 @@
   }
 }
 .logo__name {
+  margin: 0px;
   font-size: 20px;
   line-height: 25px;
   font-weight: 700;
 }
 .logo__description {
+  margin: 0px;
   display: none;
 }
 @media screen and (min-width: 1400px) {
@@ -1083,11 +1132,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
 }
 
 body {
