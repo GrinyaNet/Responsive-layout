@@ -163,19 +163,20 @@
     @include for-large-up {
       margin: 0;
     }
+  }
 
-    &__styles {
-      background: linear-gradient(180deg,
-          rgba(255, 255, 255, 0.05) 0%,
-          rgba(255, 255, 255, 1e-5) 100%),
-        rgb(255, 255, 255);
-      background-blend-mode: overlay, normal;
-      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-        inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  &__styles {
+    background: linear-gradient(180deg,
+        rgba(255, 255, 255, 0.05) 0%,
+        rgba(255, 255, 255, 1e-5) 100%),
+      rgb(255, 255, 255);
+    background-blend-mode: overlay, normal;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 
-      @include for-large-up {
-        margin: 0;
-      }    
+    @include for-large-up {
+      margin: 0;
+    }
 
     &_eye {
       margin-top: 39px;
@@ -199,79 +200,78 @@
         }
       }
     }
+  }
+
+  &-tv {
+    margin-top: 15px;
+    background: linear-gradient(180deg,
+        rgba(255, 255, 255, 0.05) 0%,
+        rgba(255, 255, 255, 1e-5) 100%),
+      rgb(255, 255, 255);
+    background-blend-mode: overlay, normal;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+
+    border-radius: 8px;
+
+    @include for-large-up {
+      margin: 0;
+      margin-left: 30px;
     }
 
-    &-tv {
-      margin-top: 15px;
-      background: linear-gradient(180deg,
-          rgba(255, 255, 255, 0.05) 0%,
-          rgba(255, 255, 255, 1e-5) 100%),
-        rgb(255, 255, 255);
-      background-blend-mode: overlay, normal;
-      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-        inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    &:hover {
+      background: rgb(49, 65, 197);
 
-      border-radius: 8px;
-
-      @include for-large-up {
-        margin: 0;
-        margin-left: 30px;
-      }
-
-      &:hover {
-        background: rgb(49, 65, 197);
-
-        .rectangle__image-caption {
-          color: rgb(255, 255, 255);
-        }
+      .rectangle__image-caption {
+        color: rgb(255, 255, 255);
       }
     }
+  }
 
-    &-athletes {
-      margin-top: 15px;
-      background: linear-gradient(180deg,
-          rgba(255, 255, 255, 0.05) 0%,
-          rgba(255, 255, 255, 1e-5) 100%),
-        rgb(255, 255, 255);
-      background-blend-mode: overlay, normal;
-      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-        inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  &-athletes {
+    margin-top: 15px;
+    background: linear-gradient(180deg,
+        rgba(255, 255, 255, 0.05) 0%,
+        rgba(255, 255, 255, 1e-5) 100%),
+      rgb(255, 255, 255);
+    background-blend-mode: overlay, normal;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 
-      @include for-large-up {
-        margin: 0;
-        margin-left: 30px;
-      }
-
-      &:hover {
-        background: rgb(49, 65, 197);
-
-        .rectangle__image-caption {
-          color: rgb(255, 255, 255);
-        }
-      }
+    @include for-large-up {
+      margin: 0;
+      margin-left: 30px;
     }
 
-    &-creators {
-      margin-top: 15px;
-      background: linear-gradient(180deg,
-          rgba(255, 255, 255, 0.05) 0%,
-          rgba(255, 255, 255, 1e-5) 100%),
-        rgb(255, 255, 255);
-      background-blend-mode: overlay, normal;
-      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-        inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    &:hover {
+      background: rgb(49, 65, 197);
 
-      @include for-large-up {
-        margin: 0;
-        margin-left: 30px;
+      .rectangle__image-caption {
+        color: rgb(255, 255, 255);
       }
+    }
+  }
 
-      &:hover {
-        background: rgb(49, 65, 197);
+  &-creators {
+    margin-top: 15px;
+    background: linear-gradient(180deg,
+        rgba(255, 255, 255, 0.05) 0%,
+        rgba(255, 255, 255, 1e-5) 100%),
+      rgb(255, 255, 255);
+    background-blend-mode: overlay, normal;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 
-        .rectangle__image-caption {
-          color: rgb(255, 255, 255);
-        }
+    @include for-large-up {
+      margin: 0;
+      margin-left: 30px;
+    }
+
+    &:hover {
+      background: rgb(49, 65, 197);
+
+      .rectangle__image-caption {
+        color: rgb(255, 255, 255);
       }
     }
   }
