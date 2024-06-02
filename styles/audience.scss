@@ -139,9 +139,6 @@
 
   &__image-caption {
     margin: 20px 0px 5px 0px;
-    //margin: 0;
-    //margin-top: 20px;
-    //margin-bottom: 5px;
     width: 250px;
     height: 28px;
     font-weight: 700;
@@ -167,8 +164,7 @@
       margin: 0;
     }
 
-    &-eye {
-      margin-top: 39px;
+    &__styles {
       background: linear-gradient(180deg,
           rgba(255, 255, 255, 0.05) 0%,
           rgba(255, 255, 255, 1e-5) 100%),
@@ -179,7 +175,21 @@
 
       @include for-large-up {
         margin: 0;
-      }
+      }    
+
+    &_eye {
+      margin-top: 39px;
+      // background: linear-gradient(180deg,
+      //     rgba(255, 255, 255, 0.05) 0%,
+      //     rgba(255, 255, 255, 1e-5) 100%),
+      //   rgb(255, 255, 255);
+      // background-blend-mode: overlay, normal;
+      // box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+      //   inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+
+      // @include for-large-up {
+      //   margin: 0;
+      // }
 
       &:hover {
         background: rgb(49, 65, 197);
@@ -188,6 +198,7 @@
           color: rgb(255, 255, 255);
         }
       }
+    }
     }
 
     &-tv {
