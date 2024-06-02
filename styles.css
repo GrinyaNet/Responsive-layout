@@ -1063,10 +1063,12 @@
     display: none;
   }
 }
+
 .logo__vertical-image {
   width: 60px;
   height: 60px;
 }
+
 .logo__vertical-name {
   font-weight: 700;
   font-size: 20px;
@@ -1074,6 +1076,7 @@
   text-align: center;
   margin-top: 20px;
 }
+
 .logo__vertical-descripton {
   font-size: 18px;
   line-height: 25px;

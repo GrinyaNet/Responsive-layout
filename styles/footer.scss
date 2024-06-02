@@ -167,24 +167,24 @@
   @include for-large-up {
     display: none;
   }
+}
 
-  &-image {
-    width: 60px;
-    height: 60px;
-  }
+.logo__vertical-image {
+  width: 60px;
+  height: 60px;
+}
 
-  &-name {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 25px;
-    text-align: center;
-    margin-top: 20px;
-  }
+.logo__vertical-name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  margin-top: 20px;
+}
 
-  &-descripton {
-    font-size: 18px;
-    line-height: 25px;
-    text-align: center;
-    color: rgba(43, 41, 45, 0.6);
-  }
+.logo__vertical-descripton {
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: rgba(43, 41, 45, 0.6);
 }
