@@ -628,6 +628,21 @@
 .spyglass__styles_eye:hover .rectangle__image-caption {
   color: rgb(255, 255, 255);
 }
+.spyglass__styles_tv {
+  margin-top: 15px;
+  border-radius: 8px;
+}
+@media screen and (min-width: 1400px) {
+  .spyglass__styles_tv {
+    margin: 0px 30px 0px 0px;
+  }
+}
+.spyglass__styles_tv:hover {
+  background: rgb(49, 65, 197);
+}
+.spyglass__styles_tv:hover .rectangle__image-caption {
+  color: rgb(255, 255, 255);
+}
 .spyglass__figure {
   display: flex;
   flex-direction: column;
@@ -643,25 +658,6 @@
   .spyglass__figure {
     margin: 0;
   }
-}
-.spyglass__figure-tv {
-  margin-top: 15px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(255, 255, 255);
-  background-blend-mode: overlay, normal;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-  border-radius: 8px;
-}
-@media screen and (min-width: 1400px) {
-  .spyglass__figure-tv {
-    margin: 0;
-    margin-left: 30px;
-  }
-}
-.spyglass__figure-tv:hover {
-  background: rgb(49, 65, 197);
-}
-.spyglass__figure-tv:hover .rectangle__image-caption {
-  color: rgb(255, 255, 255);
 }
 .spyglass__figure-athletes {
   margin-top: 15px;
