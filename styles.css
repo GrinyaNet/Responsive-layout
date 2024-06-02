@@ -622,10 +622,11 @@
   background-blend-mode: overlay, normal;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
-@media screen and (min-width: 1400px) {
-  .spyglass__figure {
-    margin: 0;
-  }
+.spyglass__figure:hover {
+  background: rgb(49, 65, 197);
+}
+.spyglass__figure:hover .rectangle__image-caption {
+  color: rgb(255, 255, 255);
 }
 .spyglass__figure_eye {
   margin-top: 39px;
@@ -634,12 +635,6 @@
   .spyglass__figure_eye {
     margin: 0;
   }
-}
-.spyglass__figure_eye:hover {
-  background: rgb(49, 65, 197);
-}
-.spyglass__figure_eye:hover .rectangle__image-caption {
-  color: rgb(255, 255, 255);
 }
 .spyglass__figure_tv {
   margin-top: 15px;
@@ -651,12 +646,6 @@
     margin-left: 30px;
   }
 }
-.spyglass__figure_tv:hover {
-  background: rgb(49, 65, 197);
-}
-.spyglass__figure_tv:hover .rectangle__image-caption {
-  color: rgb(255, 255, 255);
-}
 .spyglass__figure_athletes {
   margin-top: 15px;
 }
@@ -666,12 +655,6 @@
     margin-left: 30px;
   }
 }
-.spyglass__figure_athletes:hover {
-  background: rgb(49, 65, 197);
-}
-.spyglass__figure_athletes:hover .rectangle__image-caption {
-  color: rgb(255, 255, 255);
-}
 .spyglass__figure_creators {
   margin-top: 15px;
 }
@@ -680,12 +663,6 @@
     margin: 0;
     margin-left: 30px;
   }
-}
-.spyglass__figure_creators:hover {
-  background: rgb(49, 65, 197);
-}
-.spyglass__figure_creators:hover .rectangle__image-caption {
-  color: rgb(255, 255, 255);
 }
 
 .communicate {
