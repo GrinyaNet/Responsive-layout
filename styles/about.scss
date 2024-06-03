@@ -4,7 +4,7 @@
   background: rgb(244, 245, 247);
 
   @include for-large-up {
-    width: 1140px;
+    //width: 1140px;
     display: flex;
     justify-content: space-between;
     padding: 77px 130px 76px 130px;
@@ -16,7 +16,7 @@
 }
 
 .article {
-  width: 555px;
+  //width: 555px;
 
   &__title {
     font-weight: 700;

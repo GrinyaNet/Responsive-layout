@@ -3,7 +3,7 @@
   flex-direction: column;
 
   @include for-large-up {
-    width: 1140px;
+    //width: 1140px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -23,8 +23,8 @@
   }
 
   &__item {
-    height: 94px;
-    width: 107px;
+    //height: 94px;
+    //width: 107px;
     border-bottom: 1px solid rgb(227, 227, 227);
     border-right: 1px solid rgb(227, 227, 227);
     display: flex;
