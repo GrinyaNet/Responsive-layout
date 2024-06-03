@@ -118,12 +118,13 @@
     margin: 0;
     padding: 0;
     margin-top: 18px;
-
-    &-item {
-      color: inherit;
-      text-decoration: none;
-    }
   }
+
+  &__list-item {
+    color: inherit;
+    text-decoration: none;
+  }
+
 }
 
 .terms {
@@ -159,7 +160,7 @@
   }
 }
 
-.logo__vertical {
+.vertical-logo {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -169,12 +170,12 @@
   }
 }
 
-.logo__vertical-image {
+.vertical-logo__image {
   width: 60px;
   height: 60px;
 }
 
-.logo__vertical-name {
+.vertical-logo__name {
   font-weight: 700;
   font-size: 20px;
   line-height: 25px;
@@ -182,7 +183,7 @@
   margin-top: 20px;
 }
 
-.logo__vertical-descripton {
+.vertical-logo__descripton {
   font-size: 18px;
   line-height: 25px;
   text-align: center;
