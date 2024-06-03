@@ -86,21 +86,13 @@
     margin-top: 21px;
     padding-bottom: 22px;
     display: flex;
-
-    &-text {
-      font-weight: 700;
-      font-size: 22px;
-      line-height: 26px;
-      margin-left: 15px;
-    }
   }
 
-  &__item-header {
+  &__item-text {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    margin-left: 15px;
   }
 
-  &__item-title {
-  }
-
-  &__item-description {
-  }
 }
