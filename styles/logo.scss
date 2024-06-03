@@ -1,6 +1,6 @@
 .logo {
   display: flex;
-  margin-left: 9px;
+  //margin-left: 9px;
 
   &_footer {
     @include for-large-down {
@@ -8,9 +8,9 @@
     }
   }
 
-  @include for-large-up {
-    margin-left: 0px;
-  }
+  // @include for-large-up {
+  //   margin-left: 0px;
+  // }
 
   &__image {
     width: 48px;

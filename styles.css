@@ -33,7 +33,7 @@
   height: 64px;
   width: 100%;
   background-color: rgb(255, 255, 255);
-  padding-left: 15px;
+  padding-left: 24px;
   display: flex;
   align-items: center;
 }
@@ -1053,16 +1053,10 @@
 
 .logo {
   display: flex;
-  margin-left: 9px;
 }
 @media screen and (max-width: 399px) {
   .logo_footer {
     display: none;
-  }
-}
-@media screen and (min-width: 1400px) {
-  .logo {
-    margin-left: 0px;
   }
 }
 .logo__image {
