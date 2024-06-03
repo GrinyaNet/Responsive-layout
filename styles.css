@@ -33,7 +33,7 @@
   height: 64px;
   width: 100%;
   background-color: rgb(255, 255, 255);
-  padding-left: 24px;
+  padding-left: 15px;
   display: flex;
   align-items: center;
 }
@@ -1053,6 +1053,7 @@
 
 .logo {
   display: flex;
+  margin-left: 9px;
 }
 @media screen and (max-width: 399px) {
   .logo_footer {
