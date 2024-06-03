@@ -1060,6 +1060,11 @@
     display: none;
   }
 }
+@media screen and (min-width: 1400px) {
+  .logo {
+    margin-left: 0px;
+  }
+}
 .logo__image {
   width: 48px;
   height: 48px;

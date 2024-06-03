@@ -8,9 +8,9 @@
     }
   }
 
-  // @include for-large-up {
-  //   margin-left: 0px;
-  // }
+   @include for-large-up {
+     margin-left: 0px;
+   }
 
   &__image {
     width: 48px;
