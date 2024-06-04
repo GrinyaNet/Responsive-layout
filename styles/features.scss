@@ -58,12 +58,12 @@
   padding: 0px;
 
   &__header {
-    line-height: 42px;
-    display: flex;
+    //line-height: 42px;
+    //display: flex;
     margin-top: 42px;
   }
 
-  &__title {
+  &__item-title {
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
@@ -72,7 +72,7 @@
     margin-left: 15px;
   }
 
-  &__description {
+  &__item-description {
     font-size: 18px;
     line-height: 26px;
     margin-top: 8px;
