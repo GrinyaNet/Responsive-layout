@@ -1045,16 +1045,10 @@
 
 .logo {
   display: flex;
-  margin-left: 9px;
 }
 @media screen and (max-width: 399px) {
   .logo_footer {
     display: none;
-  }
-}
-@media screen and (min-width: 1400px) {
-  .logo {
-    margin-left: 0px;
   }
 }
 .logo__image {
