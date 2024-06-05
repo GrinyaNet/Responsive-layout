@@ -617,16 +617,9 @@
 }
 .spyglass__figure:hover {
   background: rgb(49, 65, 197);
-  margin-top: 15px;
 }
 .spyglass__figure:hover .rectangle__image-caption {
   color: rgb(255, 255, 255);
-}
-@media screen and (min-width: 1400px) {
-  .spyglass__figure:hover {
-    margin: 0;
-    margin-left: 30px;
-  }
 }
 .spyglass__figure_eye {
   margin-top: 39px;

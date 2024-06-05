@@ -169,13 +169,6 @@
       .rectangle__image-caption {
         color: rgb(255, 255, 255);
       }
-
-      margin-top: 15px;      
-
-      @include for-large-up {
-        margin: 0;
-        margin-left: 30px;
-      }
     }
 
     &_eye {
@@ -188,37 +181,15 @@
 
     &_tv {
       border-radius: 8px;
-      // margin-top: 15px;      
-
-      // @include for-large-up {
-      //   margin: 0;
-      //   margin-left: 30px;
-      // }
-    }    
-    &_properties {
-         margin-top: 15px;
-
-       @include for-large-up {
-        margin: 0;
-         margin-left: 30px;
-       }
     }
-    // &_athletes {
-    //   margin-top: 15px;
 
-    //   @include for-large-up {
-    //     margin: 0;
-    //     margin-left: 30px;
-    //   }
-    // }
+    &_properties {
+      margin-top: 15px;
 
-    // &_creators {
-    //   margin-top: 15px;
-
-    //   @include for-large-up {
-    //     margin: 0;
-    //     margin-left: 30px;
-    //   }
-    // }
+      @include for-large-up {
+        margin: 0;
+        margin-left: 30px;
+      }
+    }
   }
 }
