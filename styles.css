@@ -895,6 +895,7 @@
     width: 1140px;
     flex-direction: row;
     align-items: center;
+    padding-top: 39px;
     margin: 0 auto;
     height: 50px;
   }
