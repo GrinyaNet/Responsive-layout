@@ -2,14 +2,13 @@
   height: 64px;
   width: 100%;
   background-color: rgb(255, 255, 255);
-  padding-left: 15px;  
+  padding-left: 15px;
   display: flex;
   align-items: center;
 
   @include for-large-up {
     display: flex;
     width: 1125px;
-    //height: 62px;
     margin: auto;
     background-color: rgb(243, 198, 189);
   }

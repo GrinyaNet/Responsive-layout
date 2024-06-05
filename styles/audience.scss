@@ -1,12 +1,9 @@
 .audience {
-  //height: 1808px;
-  //width: 320px;
   background-color: rgb(0, 161, 198, 0.07);
   padding-left: 15px;
   padding-top: 49px;
 
   @include for-large-up {
-    //height: 883px;
     width: 1400px;
     padding-left: 0;
   }
@@ -16,7 +13,6 @@
   padding: 50px 15px 0 15px;
 
   @include for-large-up {
-    //height: 783px;
     width: 1400px;
     padding: 108px 0 0 0;
   }
@@ -125,7 +121,6 @@
       justify-content: space-between;
       margin-top: 111px;
       margin-left: 130px;
-      //height: 300px;
       width: 1139px;
     }
   }
