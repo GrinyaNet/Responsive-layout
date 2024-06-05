@@ -51,3 +51,34 @@
     justify-content: center;
   }
 }
+
+.vertical-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include for-large-up {
+    display: none;
+  }
+
+
+  &__image {
+    width: 60px;
+    height: 60px;
+  }
+
+  &__name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  &__descripton {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: rgba(43, 41, 45, 0.6);
+  }
+}

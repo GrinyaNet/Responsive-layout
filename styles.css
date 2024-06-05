@@ -1012,37 +1012,6 @@
   margin-left: 0;
 }
 
-.vertical-logo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-@media screen and (min-width: 1400px) {
-  .vertical-logo {
-    display: none;
-  }
-}
-
-.vertical-logo__image {
-  width: 60px;
-  height: 60px;
-}
-
-.vertical-logo__name {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 25px;
-  text-align: center;
-  margin-top: 20px;
-}
-
-.vertical-logo__descripton {
-  font-size: 18px;
-  line-height: 25px;
-  text-align: center;
-  color: rgba(43, 41, 45, 0.6);
-}
-
 .logo {
   display: flex;
 }
@@ -1087,6 +1056,34 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.vertical-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 1400px) {
+  .vertical-logo {
+    display: none;
+  }
+}
+.vertical-logo__image {
+  width: 60px;
+  height: 60px;
+}
+.vertical-logo__name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  margin-top: 20px;
+}
+.vertical-logo__descripton {
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: rgba(43, 41, 45, 0.6);
 }
 
 body {
