@@ -632,11 +632,11 @@
 .spyglass__figure_tv {
   border-radius: 8px;
 }
-.spyglass__figure_properties {
+.spyglass__figure_box {
   margin-top: 15px;
 }
 @media screen and (min-width: 1400px) {
-  .spyglass__figure_properties {
+  .spyglass__figure_box {
     margin: 0;
     margin-left: 30px;
   }
