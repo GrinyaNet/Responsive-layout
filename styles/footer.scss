@@ -24,7 +24,6 @@
     margin-top: 40px;
 
     @include for-large-up {
-      //margin: 0;
       margin-top: 59px;
     }
   }
@@ -39,7 +38,6 @@
     width: 1140px;
     flex-direction: row;
     align-items: center;
-    //padding-top: 39px;
     margin: 0 auto;
     height: 50px;
   }
